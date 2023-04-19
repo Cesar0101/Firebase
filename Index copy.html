@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head> 
+<meta charset="utf-8">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link hreaf="https://cdn.jsdelivr.net/pyodide/v0.22.1/full/pyodide.js">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="imscss.css" />
+<title>IMS TESTING GROUND </title>
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+<py-script src="imsPython.py"></py-script>
+
+</head>
+
+<!-- background-color: fuchsia;  pink Monte color -->
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!--____________________________________NAV BAR______________________________ -->
+<ul class="nav justify-content-center" style= "background-color:#00426A;" >
+
+        <li class="nav-item">
+
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+
+        </li>
+        <li class="nav-item"> 
+
+                <a class="nav-link"  href="#">Phone Numbers</a>  
+
+        </li>
+        <li class="nav-item">
+
+                <a class="nav-link" target="_blank" href="https://0067ed7.netsolhost.com/LMS-Knowledge-Base-Rise/index.html#/">Knowledge Base</a>
+
+        </li>
+        <li class="nav-item">
+          
+                <a class="nav-link" href="#">Team Goals</a>
+
+        </li>
+</ul>
+
+
+
+<div class="btn-group" role="group" aria-label="Basic outlined example">
+
+
+        <button class="btn btn-primary btn-rounded" py-click="" id="Clear">Clear</button>
+
+
+        <button class="btn btn-primary btn-rounded" py-click="" id="Corp" position="relative" >Corp</button>
+
+
+        <button class="btn btn-primary btn-rounded" py-click="" id="Psw" >Psw</button>
+
+</div>
+
+
+<!-- <div class="second-row" name="second-row"> -->
+<div id="external" class="btn-group">
+
+
+        <button class="btn btn-primary btn-rounded" py-click="" id="BAHN">Bahn</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="ClinStudent">ClinStudent</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="Contractors">Contractors</button>
+
+
+        <button class="btn btn-primary btn-rounded" py-click="" id="Einstein">Einstein</button>
+
+</div>
+
+
+<div class="btn-group" role="group" aria-label="Basic outlined example">
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="Epic">Epic</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="HouseStaff">HouseStaff</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="MedTest">MedTest</button>
+
+
+        <button class="btn btn-primary btn-rounded" py-click="" id="MNR">MNR</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="BURKE">BURKE</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="MEAC">MEAC</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="MVH">MVH</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="NYACK">NYACK</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="Nursing">Nursing</button>
+
+
+</div>
+
+
+<div class="btn-group" role="group" aria-label="Basic outlined example">
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="Osha">OSHA</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="SLC">St.Lukes</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="Voluntary">Voluntary</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="Volunteer1">Volunteer1</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="Volunteer2">Volunteer2</button>
+
+        
+        <button class="btn btn-primary btn-rounded" py-click="" id="WHP">WHP</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="ADMIN">ADMIN</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="NAO" > NAO</button>
+
+
+        <button class="btn btn-secondary btn-rounded" py-click="" id="NursingExams">NursingExams</button>
+
+
+
+</div>
+
+
+<!---------------------------- TEXT AREA ---------------------------->
+<div class="textarea" >
+<textarea id="prepbox" name="prepbox" rows="20" cols="60"></textarea>
+
+<div class="dropdown" id="dropdown" style="width: 400px;">
+        <select name="slct" id="slct">
+                <option>User Accounts</option>
+                
+                <option value="Hello,  
+                Upon looking into your account, the system is still recognizing you as a Pre-Hire. Typically, it takes a few days to update your status in the system and the Learning Network is unable to expedite this process.
+                
+In the interim, you may contact your Recruiter or hiring manager to see if they can support you. If you are able, we recommend waiting a few days and then logging in again for the system to update. 
+                
+Once the status changes internally, you will be able to access all the modules that you are assigned to complete. 
+                
+Upon receiving access, to best access your account, please log in using Google Chrome as your browser and the following link: 
+                
+Your username (case sensitive) is:
+                
+Please reach out if you have any further questions. Thank you." >Pre-hire stage</option>
+
+
+
+                <option value="Hello ,
+                Upon looking into your account, the system does show you have multiple accounts.
+
+Your accounts have been merged for you so now you have one account. The courses you completed thus far have been merged too and will show as complete.
+
+To access your account, please log in using Google Chrome as your browser and the following link: http://bit.ly/lms-mmc
+
+Log in with the same Montefiore email and password that you use to login to your Outlook email and computer.
+Please contact us if you have any questions. Thank you."
+                >Merging CORP</option>
+                <option value="Hello,
+
+While we would like to assist you in resetting your password, because your account is under a corporate domain, we ask that you kindly reach out to the Service Desk as they are able to assist you. We do not have the ability to reset your password in our system.
+                
+The best number to contact the Service Desk is 718-920-4554. 
+                
+After successful reset of the password, you will be able to log into your account successfully." 
+                >Corp Reset</option>
+                <option value="4">Algorithm</option>
+                <option value="5">C programming</option>
+                <option value="6">JAVA</option>
+        </select>
+<div class="dropdown2" id="dropdown">
+        <select name="slct2" id="slct2">
+                <option>Item</option>
+                <option value="1">Operating System</option>
+                <option value="2">Computer Networks</option>
+                <option value="3">Data Structure</option>
+                <option value="4">Algorithm</option>
+                <option value="5">C programming</option>
+                <option value="6">JAVA</option>
+        </select>
+</div>
+</div>
+<script>
+  const dropdown = document.getElementById("dropdown");
+  const prepbox = document.getElementById("prepbox");
+
+  dropdown.addEventListener("change", (event) => {
+    const selectedValue = event.target.value;
+    prepbox.value = selectedValue;
+  });
+
+// var Pre_hire = "Hello ," +
+
+// "Upon looking into your account, the system is still recognizing you as a Pre-Hire. Typically, it takes a few days to update your status in the system and the Learning Network is unable to expedite this process." +
+
+// "In the interim, you may contact your Recruiter or hiring manager to see if they can support you. If you are able, we recommend waiting a few days and then logging in again for the system to update. "+
+
+// "Once the status changes internally, you will be able to access all the modules that you are assigned to complete. " +
+
+// "Upon receiving access, to best access your account, please log in using Google Chrome as your browser and the following link: " +
+
+// "Your username (case sensitive) is: " +
+
+// "Please reach out if you have any further questions. Thank you." 
+ 
+
+ // Define the options for the dropdown
+// const user_accounts = ["Hello ," + 
+
+// "Upon looking into your account, the system is still recognizing you as a Pre-Hire. Typically, it takes a few days to update your status in the system and the Learning Network is unable to expedite this process." +
+
+// "In the interim, you may contact your Recruiter or hiring manager to see if they can support you. If you are able, we recommend waiting a few days and then logging in again for the system to update. "+
+
+// "Once the status changes internally, you will be able to access all the modules that you are assigned to complete. " +
+
+// "Upon receiving access, to best access your account, please log in using Google Chrome as your browser and the following link: " +
+
+// "Your username (case sensitive) is: " +
+
+// "Please reach out if you have any further questions. Thank you." ,
+//  "Banana",
+//   "Orange",
+//    "Mango"];
+
+// Get the select element from the HTML document
+// const selectElement = document.querySelector("#fruit-select");
+
+// // Loop through the options and create an option element for each one
+// user_accounts.forEach(user => {
+//   const optionElement = document.createElement("option");
+//   optionElement.textContent = user_issue;
+//   selectElement.appendChild(optionElement);
+// });
+
+
+      </script>
+      
+
+
+
+</body>
+</html>
